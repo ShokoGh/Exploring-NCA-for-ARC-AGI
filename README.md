@@ -3,7 +3,9 @@
 
 This repository contains code and selected result visualizations from a master's thesis project investigating Neural Cellular Automata (NCA) models for ARC-AGI tasks.
 
-The project investigates Neural Cellular Automata (NCA) models for solving ARC-AGI tasks in a task-wise few-shot setting. The experiments include baseline NCA models, learnable perception filters, extended fixed filters, color-permutation training, rotation-aware variants, dihedral augmentation, and mixed-rule selector models.
+The project investigates how a Neural Cellular Automata (NCA) model can be improved to
+better capture the reasoning required for solving ARC-AGI tasks in a task-wise few-shot
+settin. The experiments include baseline NCA models, learnable perception filters, extended fixed filters, color-permutation training, rotation-aware variants, dihedral augmentation, and mixed-rule selector models.
 
 ## Repository Structure
 
