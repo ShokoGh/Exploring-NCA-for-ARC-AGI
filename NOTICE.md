@@ -9,6 +9,7 @@ https://colab.research.google.com/github/google-research/self-organising-systems
 Related article:
 
 **Growing Neural Cellular Automata: Differentiable Model of Morphogenesis**
+By:
 Alexander Mordvintsev, Ettore Randazzo, Eyvind Niklasson, and Michael Levin.
 Distill, 2020.
 https://distill.pub/2020/growing-ca/
