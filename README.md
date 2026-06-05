@@ -96,6 +96,21 @@ The `Results/` folder contains selected visual result files from the experiments
 
 These files are included to make it easier to inspect model behavior qualitatively, not only through numerical scores.
 
+## Solved Task Videos
+
+The `Solved_task_videos/` folder contains MP4 visualizations of ARC-AGI tasks solved by the six evaluated NCA model variants:
+
+- `Result_basline`: videos from the `NCA_Baseline_PAD/` baseline NCA model
+- `Result_fixed-filter`: videos from the `NCA_Extended_Fixed_Filter_PAD/` extended fixed-filter NCA model
+- `Result_learnable-filter`: videos from the `NCA_Learnable_Filter_PAD/` learnable-filter NCA model
+- `Result_color-permutation`: videos from the `NCA_Color_Permutation_PAD/` color-permutation NCA model
+- `Result_rotating-filter`: videos from the `NCA_Rotated_Learnable_Filter_PAD/` rotating-filter NCA model
+- `Result_combined`: videos from the `NCA_Combined_PAD/` combined color-permutation and rotating-filter NCA model
+
+Each model folder contains videos organized by dataset split: `train1`, `eval1`, `train2`, and `eval2`. These correspond to ARC-AGI-1 training, ARC-AGI-1 evaluation, ARC-AGI-2 training, and ARC-AGI-2 evaluation.
+
+Each video shows the available training input-target examples, the test input, the target output, the final model prediction, and the NCA trace over iterative update steps.
+
 ## Datasets
 
 The ARC-AGI datasets are not included in this repository.
